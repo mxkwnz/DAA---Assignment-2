@@ -9,9 +9,9 @@ public class InsertionSortBenchmark {
     private static final int ITERATIONS = 5;
 
     public static void main(String[] args) throws Exception {
-        System.out.println("Insertion Sort Benchmark - Kalen\n");
+        System.out.println("Insertion Sort Benchmark - Muhammedali\n");
 
-        FileWriter writer = new FileWriter("docs/kalen/performance-plots/insertion_sort_results.csv");
+        FileWriter writer = new FileWriter("docs/muhammedali/performance-plots/insertion_sort_results.csv");
         writer.write("Algorithm,Size,InputType,Comparisons,Swaps,Accesses,Time_ms\n");
 
         for (int size : SIZES) {
@@ -23,7 +23,7 @@ public class InsertionSortBenchmark {
         }
 
         writer.close();
-        System.out.println("\n✓ Results saved to docs/kalen/performance-plots/");
+        System.out.println("\n✓ Results saved to docs/muhammedali/performance-plots/");
     }
 
     private static void testPattern(int size, String pattern, FileWriter writer) throws Exception {

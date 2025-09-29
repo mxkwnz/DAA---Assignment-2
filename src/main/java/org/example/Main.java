@@ -6,11 +6,6 @@ import org.example.algorithms.SelectionSort;
 import java.util.Arrays;
 import java.util.Scanner;
 
-/**
- * Interactive demo for both sorting algorithms
- *
- * @author Abdullayev Shynggys & Kalen Muhammedali
- */
 public class Main {
 
     public static void main(String[] args) {
@@ -18,7 +13,7 @@ public class Main {
 
         System.out.println("╔════════════════════════════════════════════════════╗");
         System.out.println("║        Sorting Algorithms - Interactive Demo       ║");
-        System.out.println("║   Selection Sort (Shynggys) vs Insertion Sort (Kalen) ║");
+        System.out.println("║   Selection Sort (Shynggys) vs Insertion Sort (Muhammedali) ║");
         System.out.println("╚════════════════════════════════════════════════════╝\n");
 
         while (true) {
@@ -55,7 +50,7 @@ public class Main {
         System.out.println("\n" + "─".repeat(50));
         System.out.println("MENU:");
         System.out.println("1. Sort with Selection Sort (Shynggys)");
-        System.out.println("2. Sort with Insertion Sort (Kalen)");
+        System.out.println("2. Sort with Insertion Sort (Muhammedali)");
         System.out.println("3. Compare both algorithms");
         System.out.println("4. Show example demonstrations");
         System.out.println("5. Exit");
@@ -106,7 +101,7 @@ public class Main {
         System.out.println("   Result: " + Arrays.toString(arr1));
         System.out.println("   " + selSort.getTracker());
 
-        System.out.println("\n🟢 Insertion Sort (Kalen):");
+        System.out.println("\n🟢 Insertion Sort (Muhammedali):");
         System.out.println("   Result: " + Arrays.toString(arr2));
         System.out.println("   " + insSort.getTracker());
 

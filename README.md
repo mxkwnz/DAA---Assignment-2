@@ -18,7 +18,7 @@ This project implements and analyzes two fundamental quadratic sorting algorithm
     - Space: O(1)
     - Optimization: Early termination on sorted data
 
-2. **Insertion Sort** (implemented by Kalen)
+2. **Insertion Sort** (implemented by Muhammedali)
     - Time: O(n) best, O(n²) average/worst
     - Space: O(1)
     - Optimization: Binary search for insertion position
@@ -32,7 +32,7 @@ assignment2-sorting-algorithms/
 ├── src/main/java/
 │   ├── algorithms/
 │   │   ├── SelectionSort.java      (Shynggys)
-│   │   └── InsertionSort.java      (Kalen)
+│   │   └── InsertionSort.java      (Muhammedali)
 │   ├── metrics/
 │   │   └── PerformanceTracker.java (Shared)
 │   ├── cli/
@@ -47,9 +47,7 @@ assignment2-sorting-algorithms/
 │   ├── shynggys/
 │   │   ├── analysis-report-insertion-sort.pdf
 │   │   └── performance-plots/
-│   ├── kalen/
-│   │   ├── analysis-report-selection-sort.pdf
-│   │   └── performance-plots/
-│   └── joint/
-│       └── cross-review-summary.pdf
+│   └── muhammedali/
+│       ├── analysis-report-selection-sort.pdf
+│       └── performance-plots/
 └── pom.xml
