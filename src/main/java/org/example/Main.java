@@ -12,8 +12,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("╔═════════════════════════════════════════════════════════════╗");
-        System.out.println("║              Sorting Algorithms - Interactive Demo          ║");
-        System.out.println("║   Selection Sort (Shynggys) vs Insertion Sort (Muhammedali) ║");
+        System.out.println("║             Sorting Algorithms - Interactive Demo           ║");
+        System.out.println("║  Selection Sort (Shynggys) vs Insertion Sort (Muhammedali)  ║");
         System.out.println("╚═════════════════════════════════════════════════════════════╝\n");
 
         while (true) {
