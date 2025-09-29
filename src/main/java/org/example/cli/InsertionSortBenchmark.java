@@ -11,7 +11,7 @@ public class InsertionSortBenchmark {
     public static void main(String[] args) throws Exception {
         System.out.println("Insertion Sort Benchmark - Muhammedali\n");
 
-        FileWriter writer = new FileWriter("docs/muhammedali/performance-plots/insertion_sort_results.csv");
+        FileWriter writer = new FileWriter("src/docs/muhammedali/performance-plots/insertion_sort_results.csv");
         writer.write("Algorithm,Size,InputType,Comparisons,Swaps,Accesses,Time_ms\n");
 
         for (int size : SIZES) {

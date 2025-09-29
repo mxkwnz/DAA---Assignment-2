@@ -12,7 +12,7 @@ public class SelectionSortBenchmark {
     public static void main(String[] args) throws Exception {
         System.out.println("Selection Sort Benchmark - Shynggys\n");
 
-        FileWriter writer = new FileWriter("docs/shynggys/performance-plots/selection_sort_results.csv");
+        FileWriter writer = new FileWriter("src/docs/shynggys/performance-plots/selection_sort_results.csv");
         writer.write("Algorithm,Size,InputType,Comparisons,Swaps,Accesses,Time_ms\n");
 
         for (int size : SIZES) {
