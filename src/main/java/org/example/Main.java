@@ -11,10 +11,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("╔════════════════════════════════════════════════════╗");
-        System.out.println("║        Sorting Algorithms - Interactive Demo       ║");
+        System.out.println("╔═════════════════════════════════════════════════════════════╗");
+        System.out.println("║              Sorting Algorithms - Interactive Demo          ║");
         System.out.println("║   Selection Sort (Shynggys) vs Insertion Sort (Muhammedali) ║");
-        System.out.println("╚════════════════════════════════════════════════════╝\n");
+        System.out.println("╚═════════════════════════════════════════════════════════════╝\n");
 
         while (true) {
             displayMenu();
