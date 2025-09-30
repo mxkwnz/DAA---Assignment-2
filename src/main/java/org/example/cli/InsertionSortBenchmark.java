@@ -23,7 +23,7 @@ public class InsertionSortBenchmark {
         }
 
         writer.close();
-        System.out.println("\n✓ Results saved to docs/muhammedali/performance-plots/");
+        System.out.println("\n✓ Results saved to src/docs/muhammedali/performance-plots/insertion_sort_results.csv");
     }
 
     private static void testPattern(int size, String pattern, FileWriter writer) throws Exception {
